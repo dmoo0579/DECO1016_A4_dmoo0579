@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <title>Woolworths Rewards</title>
+    <link rel="icon" href="../images/logo3.png">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="signup1.js"></script>
+</head>
+<body id="body" class="background-image" id="background-1">
+    <div id="header">
+        <a href="../index.html"><img id="icon" src="../images/logo5.png" alt="icon" width = "60px"></a>
+        <h1 id="title"><a href="../index.html">Woolworths Rewards</a></h1>
+        <a id="header-buttons" href="page1.html"><h1>Login</h1></a>
+        <a id="header-buttons" href="page1.html"><h1>Sign-up</h1></a>
+        <a id="header-buttons" class="mobile-hide"><h1>FAQ</h1></a>
+        <a id="header-buttons" class="mobile-hide"><h1>How it Works</h1></a>
+    </div>
+    <div id="progress">
+        <div class="progress-row">
+            <h1 class="current-step">Step 1</h1>
+            <p class="current-step">Creating your Account</p>
+        </div>
+        <div class="progress-row">
+            <h1>Step 2</h1>
+            <p>Ordering your Card</p>
+        </div>
+        <div class="progress-row">
+            <h1>Step 3</h1>
+            <p>Last few Steps</p>
+        </div>
+        <div class="progress-row">
+            <h1>Step 4</h1>
+            <p>All Done!</p>
+        </div>
+    </div>
+    <div class="signup">
+        <h1 id="step-title">Step 1: Creating your Account</h1>
+        <form id="form-1">
+            <div class="row">
+                <div class="column">
+                    <p>Name*</p>
+                    <input type="text" name="given" placeholder="Given Name" id="gname">
+                </div>
+                <div class="column">
+                    <p>&nbsp;</p>
+                    <input type="text" name="family" placeholder="Family Name" id="fname">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                    <div class="column">
+                        <p>Gender</p>
+                        <select name="Gender" id="gender">
+                            <option value="n/a" disabled selected>Select an option</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="other">Other</option>
+                            <option value="unspecified">Prefer not to say</option>
+                        </select>
+    
+                    </div>
+                    <div class="column">
+                        <p>Date of Birth*</p>
+                        <input type="text" name="birthdate" placeholder="dd/mm/yyyy" id="birthdate">
+                    </div>
+                </div>
+            <hr class="form-break">
+            <div class="single-column">
+                <p>Email*</p>
+                <input type="email" name="email" placeholder="e.g. email@example.com" id="email">
+            </div>
+            <br>
+            <div class="single-column">
+                <p>Password*</p>
+                <input type="password" name="password" placeholder="Enter your password" id="password">
+            </div>
+            <p class="disclaimer">Minimum 8 characters, must contain at least 1 lower case letter, 1 capital letter and 1 number</p>
+            <br>
+            <div class="single-column">
+                <p>Confirm Password*</p>
+                <input type="password" name="confirm" placeholder="Confirm your password" id="confirm">
+            </div>
+        </form>
+        <div class="submit-row">
+            <div class="submit-column-1">
+                <button id="next-step" onclick="formCheck()">Next</button>
+                <p class="disclaimer">* shows required fields</p>
+            </div>
+            <div class="submit-column-2">
+                <p id="error"></p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="sidebar-image-1">
+
+    </div>
+</body>

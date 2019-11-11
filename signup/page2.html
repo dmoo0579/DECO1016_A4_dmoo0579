@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title>Woolworths Rewards</title>
+    <link rel="icon" href="../images/logo3.png">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="signup2.js"></script>
+</head>
+<body id="body" class="background-image" id="background-2">
+    <div id="header">
+        <a href="../index.html"><img id="icon" src="../images/logo5.png" alt="icon" width = "60px"></a>
+        <h1 id="title"><a href="../index.html">Woolworths Rewards</a></h1>
+        <a id="header-buttons" href="page1.html"><h1>Login</h1></a>
+        <a id="header-buttons" href="page1.html"><h1>Sign-up</h1></a>
+        <a id="header-buttons" class="mobile-hide"><h1>FAQ</h1></a>
+        <a id="header-buttons" class="mobile-hide"><h1>How it Works</h1></a>
+    </div>
+    <div id="progress">
+        <div class="progress-row">
+            <h1>Step 1</h1>
+            <p>Creating your Account</p>
+        </div>
+        <div class="progress-row">
+            <h1  class="current-step">Step 2</h1>
+            <p  class="current-step">Ordering your Card</p>
+        </div>
+        <div class="progress-row">
+            <h1>Step 3</h1>
+            <p>Last few Steps</p>
+        </div>
+        <div class="progress-row">
+            <h1>Step 4</h1>
+            <p>All Done!</p>
+        </div>
+    </div>
+    <div class="signup">
+        <h1 id="step-title">Step 2: Ordering your Card</h1>
+        <form id="form-1">
+            <div class="row">
+            <div class="single-column">
+                <p>Mobile Phone Number*</p>
+                <input type="text" name="phone" placeholder="Enter your mobile phone number" id="phone">
+            </div>
+            </div>
+            <br>
+            <div class="single-column">
+                <p>Temporary Card Number</p>
+                <input type="text" name="card-number" placeholder="Optional" id="card-number">
+            </div>
+            <hr class="form-break">
+            <div class="single-column">
+                <p>Address Line 1*</p>
+                <input type="text" name="address-1" placeholder="Street Name and Number" id="address-1">
+            </div>
+            <br>
+            <div class="single-column">
+                <p>Address Line 2</p>
+                <input type="text" name="address-2" placeholder="Optional" id="address-2">
+            </div>
+            <p class="disclaimer">Minimum 8 characters, must contain at least 1 lower case letter, 1 capital letter and 1 number</p>
+            <br>
+            <div class="single-column">
+                <p>City / Postcode*</p>
+                <input type="text" name="city" placeholder="Enter your City / Postcode" id="city">
+            </div>
+        </form>
+        <div class="submit-row">
+            <div class="submit-column-1">
+                <button id="next-step" onclick="formCheck()">Next</button>
+                <p class="disclaimer">* shows required fields</p>
+            </div>
+            <div class="submit-column-2">
+                <p id="error"></p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="sidebar-image-2">
+    </div>
+</body>

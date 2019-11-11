@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>Woolworths Rewards</title>
+    <link rel="icon" href="../images/logo3.png">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="signup3.js"></script>
+</head>
+<body id="body" class="background-image" id="background-3">
+    <div id="header">
+        <a href="../index.html"><img id="icon" src="../images/logo5.png" alt="icon" width = "60px"></a>
+        <h1 id="title"><a href="../index.html">Woolworths Rewards</a></h1>
+        <a id="header-buttons" href="page1.html"><h1>Login</h1></a>
+        <a id="header-buttons" href="page1.html"><h1>Sign-up</h1></a>
+        <a id="header-buttons" class="mobile-hide"><h1>FAQ</h1></a>
+        <a id="header-buttons" class="mobile-hide"><h1>How it Works</h1></a>
+    </div>
+    <div id="progress">
+        <div class="progress-row">
+            <h1>Step 1</h1>
+            <p>Creating your Account</p>
+        </div>
+        <div class="progress-row">
+            <h1>Step 2</h1>
+            <p>Ordering your Card</p>
+        </div>
+        <div class="progress-row">
+            <h1 class="current-step">Step 3</h1>
+            <p class="current-step">Last few Steps</p>
+        </div>
+        <div class="progress-row">
+            <h1>Step 4</h1>
+            <p>All Done!</p>
+        </div>
+    </div>
+    <div class="signup-verification">
+        <h1 id="step-title">Step 3: Last few Steps</h1>
+        <form id="form-1">
+            <div class="row">
+            <div class="single-column">
+                <p id="verification-1">An email has been sent to the provided email address with a code to verify your account details.</p>
+            </div>
+            </div>
+            <hr class="form-break">
+            <div class="single-column">
+                <p class="verification-2">Please enter the 4-digit code from your email here:</p>
+                <input id="code" class="verification-2" type="number" max="4" placeholder="Enter any 4 digit number">
+            </div>
+        </form>
+        <div class="submit-row">
+            <div class="submit-column-1">
+                <button id="next-step" onclick="formCheck()">Next</button>
+            </div>
+            <div class="submit-column-2">
+                <p id="error"></p>
+            </div>
+            
+        </div>
+        <p class="disclaimer">By continuing, you agree to our <a>privacy policy</a> and <a>terms of conditions</a>.</p>
+    </div>
+    <div class="sidebar-image-3">
+    </div>
+</body>

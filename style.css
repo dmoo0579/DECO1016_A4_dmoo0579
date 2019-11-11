@@ -1,0 +1,446 @@
+@media only screen and (max-width: 1000px) {
+    #header-buttons {
+        font-size: 1em;
+    }
+    body {
+        background-color: orangered;
+    }
+    #front-image {
+        padding-bottom: 50%;
+        background-image: url(images/backimage.jpg);
+        background-size: cover;
+    }
+    #front-login {
+        display: block;
+        font-size: 2em;
+    }
+    .mobile-fix {
+        margin-top: 7%;
+    }
+    #mobile-img {
+        opacity: 0;
+    }
+    .background-image {
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: orangered;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: 999;
+    box-shadow: 0px 1px 4px black;
+}
+#header h1 {
+    display:inline-block;
+}
+#header h1 a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#header-buttons {
+    float: right;
+    margin-right: 5%;
+    font-size: 0.7em;
+    color: white;
+    margin-top: 0.7em;
+    transition: all 0.5s;
+    transform: translate(0%,10%);
+    text-shadow: 1px 1px 1px black;
+}
+#header a:hover {
+    color: rgb(212, 212, 212);
+    transition: all 0.5s;
+}
+#title {
+    margin-left: 100px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#front-image {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(93, 121, 67);
+    position: relative;
+}
+#front-login {
+    top: 25%;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+}
+#front-login h1 {
+    color: white;
+    line-height: 100%;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 4px black;
+}
+#front-login a {
+    color: white;
+    padding: 0.1em;
+    font-size: 1.6em;
+    border: 5px solid orangered;
+    background-color: orangered;
+    border-radius: 15%;
+    box-shadow: 1px 1px 4px black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#front-login a:hover {
+    border: 5px solid red;
+    background-color: red;
+    transition: all 0.5s;
+}
+img {
+    position: absolute;
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 1.5em;
+    line-height: 20%;
+}
+.header-buttons {
+    float: right;
+    color: white;
+    font-size: 1em;
+}
+#content {
+    width: 100%;
+    height: 300%;
+    background-color: white;
+    z-index: 9999;
+    transform: translate(0%,-2.5%);
+    text-align: center;
+}
+#content p {
+    transform: translate(0%,-1800%);
+    color: darkslategrey;
+    text-shadow: 0 0 0;
+}
+#content2 {
+    text-align: center;
+    background-color: orangered;
+    height: 300%;
+}
+#content2 a {
+    color: orangered;
+    padding: 0.3em;
+    font-size: 1.6em;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 1px 1px 4px black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#content2 a:hover {
+    color: red;
+    transition: all 0.5s;
+}
+#content2 h1 {
+    display: inline-block;
+    color: white;
+}
+.left {
+    margin-right: 20%;
+}
+#logo {
+    display: block;
+    z-index: 20;
+    margin: 0 auto;
+    transform: translate(450%,40%);
+}
+#icon {
+    display:inline-block;
+    z-index: 20;
+    margin: 0 auto;
+    transform: translate(20px,10px);
+}
+h2 {
+    display: inline;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+#card {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 20%;
+    transform: translate(0%,-50%);
+}
+.background-image {
+    background-image: url(images/backimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(93, 121, 67);
+}
+#progress {
+    width: 20%;
+    position: absolute;
+    background-color: white;
+    height: 750px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 5%;
+    border-radius: 1%;
+}
+.signup {
+    width: 40%;
+    position: absolute;
+    background-color: white;
+    height: 750px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 30%;
+    border-radius: 1%;
+}
+.signup-verification {
+    width: 40%;
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 30%;
+    border-radius: 1%;
+}
+.signup-endpoint {
+    width: 40%;
+    position: absolute;
+    background-color: white;
+    height: 600px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 30%;
+    border-radius: 1%;
+}
+.sidebar-image-1 {
+    width: 20%;
+    position: absolute;
+    background-image: url(images/sidebarimage1.jpg);
+    background-size: cover;
+    height: 750px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 75%;
+    border-radius: 1%;
+}
+.sidebar-image-2 {
+    width: 20%;
+    position: absolute;
+    background-image: url(images/sidebarimage2.jpg);
+    background-size: cover;
+    height: 750px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 75%;
+    border-radius: 1%;
+}
+.sidebar-image-3 {
+    width: 20%;
+    position: absolute;
+    background-image: url(images/sidebarimage3.jpg);
+    background-size: cover;
+    height: 750px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 75%;
+    border-radius: 1%;
+}
+.sidebar-image-4 {
+    width: 20%;
+    position: absolute;
+    background-image: url(images/sidebarimage4.jpg);
+    background-size: cover;
+    height: 750px;
+    box-shadow: 2px 2px 4px black;
+    display: block;
+    top: 15%;
+    left: 75%;
+    border-radius: 1%;
+}
+#step-title {
+    margin-left: 4%;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+.column * {
+    color: black;
+    text-shadow: 0 0 0;
+    margin-left: 10%;
+}
+.column input {
+    width: 78%;
+    height: 1em;
+    font-size: 1.2em;
+}
+.column select {
+    width: 79%;
+    height: 1.3em;
+    font-size: 1.2em;
+}
+.form-break {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.single-column {
+    flex: 100%;
+}
+.single-column *{
+    color: black;
+    text-shadow: 0 0 0;
+    margin-left: 5%;
+}
+.single-column input {
+    width: 89%;
+    height: 1em;
+    font-size: 1.2em;
+}
+.disclaimer {
+    font-size: 0.8em;
+    color: black;
+    text-shadow: 0 0 0;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+    line-height: 1em;
+}
+.disclaimer a {
+    color: orangered;
+}
+#next-step {
+    color: white;
+    padding: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.6em;
+    font-size: 1.6em;
+    border: 5px solid orangered;
+    background-color: orangered;
+    border-radius: 5%;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: all 0.5s;
+}
+#next-step:hover {
+    transition: all 0.5s;
+    background-color: red;
+    border: 5px solid red;
+}
+.progress-row {
+    height: 150px;
+    color: black;
+}
+.progress-row h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+.progress-row p {
+    text-align: center;
+    text-shadow: 0 0 0;
+    line-height: 1em;
+}
+.current-step {
+    color: orangered;
+}
+.submit-row {
+    display: flex;
+    margin-top: 2%;
+}
+.submit-column-1 {
+    flex: 40%;
+    margin-left: 3%;
+}
+.submit-column-2 {
+    flex: 60%;
+    margin-left: 3%;
+}
+#error {
+    font-size: 0.8em;
+    color: red;
+    line-height: 1.2em;
+}
+#verification-1 {
+    line-height: 1.2em;
+    margin-right: 5%;
+}
+.verification-2 {
+    line-height: 1.2em;
+    margin-right: 5%;
+    text-align: center;
+}
+.endpoint {
+    line-height: 1.2em;
+    margin-right: 5%;
+}
+.endpoint a {
+    color: orangered;
+    margin-left: 0%;
+}
+@media only screen and (max-width: 1000px) {
+    .signup {
+        font-size: 1.4em;
+        width: 60%;
+        height: 1050px;
+    }
+    .sidebar-image-1 {
+        opacity: 0;
+    }
+    .sidebar-image-2 {
+        opacity: 0;
+    }
+    .sidebar-image-3 {
+        opacity: 0;
+    }
+    .sidebar-image-4 {
+        opacity: 0;
+    }
+    .signup-verification {
+        font-size: 1.4em;
+        width: 60%;
+        height: 680px;
+    }
+    .signup-endpoint {
+        font-size: 1.4em;
+        width: 60%;
+        height: 950px;
+    }
+    .background-image {
+        background-image: url(images/mobilebackground.jpg);
+        background-size: cover;
+    }
+    #logo {
+        width: 20%;
+        transform: translate(194%,40%);
+    }
+    .mobile-hide {
+        opacity: 0;
+    }
+}
