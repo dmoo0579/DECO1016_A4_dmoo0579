@@ -1,3 +1,9 @@
+/*
+This page has no comments, but is mostly self explanatory
+IDs were used for almost all divs that only appeared once in each page, while classes were used for other elements that were 
+used multiple times in a page, such as text styles. There are changes for mobile screens both at the beginning and end of the
+document, as changing this seemed to break several aspects of the website.
+*/
 @media only screen and (max-width: 1000px) {
     #header-buttons {
         font-size: 1em;
